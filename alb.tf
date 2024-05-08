@@ -1,4 +1,4 @@
-/*
+
 
 resource "aws_lb_target_group" "alb-target-group" {
   name     = "application-lb-tg"
@@ -53,4 +53,4 @@ resource "aws_lb_listener" "alb-http-listener" {
     
   }
 }
-*/
+
