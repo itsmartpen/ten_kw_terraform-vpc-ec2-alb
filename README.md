@@ -1,1 +1,1 @@
-# week10-terraform-vpc-ec2-alb
+# ten_kw_terraform-vpc-ec2-alb
