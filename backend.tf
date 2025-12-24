@@ -1,12 +1,10 @@
-##
 terraform {
   backend "s3" {
     bucket         = "week10-il-terraform"
     key            = "week10/terraform.tfstate"
-    region         = "us-east-1"
+    region         = var.REGION
     encrypt        = true
     dynamodb_table = "state-log"
   }
 }
 
-##
