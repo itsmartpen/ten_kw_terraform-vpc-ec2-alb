@@ -2,9 +2,9 @@ terraform {
   backend "s3" {
     bucket         = "week10-il-terraform"
     key            = "week10/terraform.tfstate"
-    region         = var.REGION
+    region         = "us-east-1"
     encrypt        = true
-    dynamodb_table = "state-log"
+    #dynamodb_table = "state-log"
   }
 }
 
